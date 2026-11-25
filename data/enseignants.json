@@ -5,7 +5,8 @@
     "departement": "Informatique",
     "email": "karim.benali@example.com",
     "specialite": "Cloud Computing et DevOps",
-    "bureau": "B-101"
+    "bureau": "B-101",
+    "photo": "/photos/karim-1.jpg"
   },
   {
     "id": 2,
