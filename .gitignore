@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node / React / Vite
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Windows / OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Environnements et secrets
+.env
+.env.*
+*.pem
+*.key
+kubeconfig*
+
+# Logs
+*.log
