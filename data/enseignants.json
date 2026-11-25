@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nom": "Karim Benali",
+    "departement": "Informatique",
+    "email": "karim.benali@example.com",
+    "specialite": "Cloud Computing et DevOps",
+    "bureau": "B-101"
+  },
+  {
+    "id": 2,
+    "nom": "Salma El Idrissi",
+    "departement": "Informatique",
+    "email": "salma.elidrissi@example.com",
+    "specialite": "Intelligence artificielle",
+    "bureau": "B-102"
+  },
+  {
+    "id": 3,
+    "nom": "Youssef Amrani",
+    "departement": "Informatique",
+    "email": "youssef.amrani@example.com",
+    "specialite": "Réseaux et sécurité",
+    "bureau": "B-103"
+  },
+  {
+    "id": 4,
+    "nom": "Nadia Tazi",
+    "departement": "Mathématiques",
+    "email": "nadia.tazi@example.com",
+    "specialite": "Analyse numérique",
+    "bureau": "A-201"
+  },
+  {
+    "id": 5,
+    "nom": "Omar Fassi",
+    "departement": "Mathématiques",
+    "email": "omar.fassi@example.com",
+    "specialite": "Probabilités et statistiques",
+    "bureau": "A-202"
+  },
+  {
+    "id": 6,
+    "nom": "Leila Chraibi",
+    "departement": "Physique",
+    "email": "leila.chraibi@example.com",
+    "specialite": "Physique des matériaux",
+    "bureau": "C-301"
+  },
+  {
+    "id": 7,
+    "nom": "Hamza Berrada",
+    "departement": "Physique",
+    "email": "hamza.berrada@example.com",
+    "specialite": "Énergies renouvelables",
+    "bureau": "C-302"
+  },
+  {
+    "id": 8,
+    "nom": "Imane Lahlou",
+    "departement": "Chimie",
+    "email": "imane.lahlou@example.com",
+    "specialite": "Chimie analytique",
+    "bureau": "D-401"
+  },
+  {
+    "id": 9,
+    "nom": "Reda Skalli",
+    "departement": "Économie et Gestion",
+    "email": "reda.skalli@example.com",
+    "specialite": "Management des systèmes d'information",
+    "bureau": "E-501"
+  },
+  {
+    "id": 10,
+    "nom": "Hind Ouazzani",
+    "departement": "Langues et Communication",
+    "email": "hind.ouazzani@example.com",
+    "specialite": "Communication professionnelle",
+    "bureau": "F-601"
+  },
+  {
+    "id": 11,
+    "nom": "Karim Benali",
+    "departement": "Mathématiques",
+    "email": "k.benali.maths@example.com",
+    "specialite": "Algèbre et géométrie",
+    "bureau": "A-203"
+  }
+]
