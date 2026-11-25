@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:5000/api/enseignants/999
+description: ""
+url: http://localhost:5000/api/enseignants/999
+method: GET
+order: 1000
