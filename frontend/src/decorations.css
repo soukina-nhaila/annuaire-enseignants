@@ -1,0 +1,44 @@
+/* Touches décoratives : zellij, porte de médina, logos. Aucun changement de mise en page. */
+
+/* ---------- Zellij ---------- */
+.zellij { position: absolute; pointer-events: none; color: var(--or); }
+
+.zellij-hero {
+    top: 0; left: 0; width: 170px; height: 100%;
+    opacity: 0.5;
+    -webkit-mask-image: linear-gradient(to right, #000 15%, transparent);
+    mask-image: linear-gradient(to right, #000 15%, transparent);
+}
+
+.pied { position: relative; overflow: hidden; }
+.pied .conteneur { position: relative; z-index: 1; }
+.zellij-pied {
+    bottom: 0; left: 0; width: 260px; height: 150px;
+    opacity: 0.35;
+    -webkit-mask-image: linear-gradient(to top right, #000 20%, transparent 80%);
+    mask-image: linear-gradient(to top right, #000 20%, transparent 80%);
+}
+
+/* ---------- Porte de médina dans le bandeau des chiffres ---------- */
+.stats { overflow: hidden; }
+.stat { position: relative; z-index: 1; }
+.medina-stats {
+    position: absolute; right: 18px; bottom: 0;
+    width: 230px; height: auto;
+    color: var(--or); opacity: 0.4;
+    pointer-events: none; z-index: 0;
+}
+
+/* ---------- Logos ---------- */
+.logo-image { height: 48px; width: auto; max-width: 120px; object-fit: contain; flex-shrink: 0; }
+.logo-separateur { width: 1px; height: 38px; background: var(--bordure); flex-shrink: 0; }
+.logo-texte { display: flex; flex-direction: column; }
+.logo-clair .logo-separateur { background: rgba(255, 255, 255, 0.25); }
+
+@media (max-width: 1100px) {
+    .medina-stats { display: none; }
+}
+@media (max-width: 680px) {
+    .zellij-hero { width: 90px; }
+    .logo-image { height: 38px; }
+}
