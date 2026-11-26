@@ -1,0 +1,24 @@
+name: annuaire
+
+services:
+  api:
+    build: ./api
+    image: annuaire-api:1.0.0
+    environment:
+      # Chemin du fichier JSON dans le conteneur (le fichier n'est pas dans l'image)
+      ENSEIGNANTS_FILE: /data/enseignants.json
+    volumes:
+      - ./data:/data:ro
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    image: annuaire-frontend:1.0.0
+    ports:
+      - "8080:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
