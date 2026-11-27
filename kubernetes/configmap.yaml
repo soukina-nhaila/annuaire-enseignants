@@ -1,0 +1,38 @@
+apiVersion: v1
+data:
+  enseignants.json: "[\r\n  {\r\n    \"id\": 1,\r\n    \"nom\": \"Karim Benali\",\r\n
+    \   \"departement\": \"Informatique\",\r\n    \"email\": \"karim.benali@example.com\",\r\n
+    \   \"specialite\": \"Cloud Computing et DevOps\",\r\n    \"bureau\": \"B-101\",\r\n
+    \   \"photo\": \"/photos/prof.jpg\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"nom\":
+    \"Salma El Idrissi\",\r\n    \"departement\": \"Informatique\",\r\n    \"email\":
+    \"salma.elidrissi@example.com\",\r\n    \"specialite\": \"Intelligence artificielle\",\r\n
+    \   \"bureau\": \"B-102\"\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"nom\": \"Youssef
+    Amrani\",\r\n    \"departement\": \"Informatique\",\r\n    \"email\": \"youssef.amrani@example.com\",\r\n
+    \   \"specialite\": \"Réseaux et sécurité\",\r\n    \"bureau\": \"B-103\"\r\n
+    \ },\r\n  {\r\n    \"id\": 4,\r\n    \"nom\": \"Nadia Tazi\",\r\n    \"departement\":
+    \"Mathématiques\",\r\n    \"email\": \"nadia.tazi@example.com\",\r\n    \"specialite\":
+    \"Analyse numérique\",\r\n    \"bureau\": \"A-201\"\r\n  },\r\n  {\r\n    \"id\":
+    5,\r\n    \"nom\": \"Omar Fassi\",\r\n    \"departement\": \"Mathématiques\",\r\n
+    \   \"email\": \"omar.fassi@example.com\",\r\n    \"specialite\": \"Probabilités
+    et statistiques\",\r\n    \"bureau\": \"A-202\"\r\n  },\r\n  {\r\n    \"id\":
+    6,\r\n    \"nom\": \"Leila Chraibi\",\r\n    \"departement\": \"Physique\",\r\n
+    \   \"email\": \"leila.chraibi@example.com\",\r\n    \"specialite\": \"Physique
+    des matériaux\",\r\n    \"bureau\": \"C-301\"\r\n  },\r\n  {\r\n    \"id\": 7,\r\n
+    \   \"nom\": \"Hamza Berrada\",\r\n    \"departement\": \"Physique\",\r\n    \"email\":
+    \"hamza.berrada@example.com\",\r\n    \"specialite\": \"Énergies renouvelables\",\r\n
+    \   \"bureau\": \"C-302\"\r\n  },\r\n  {\r\n    \"id\": 8,\r\n    \"nom\": \"Imane
+    Lahlou\",\r\n    \"departement\": \"Chimie\",\r\n    \"email\": \"imane.lahlou@example.com\",\r\n
+    \   \"specialite\": \"Chimie analytique\",\r\n    \"bureau\": \"D-401\"\r\n  },\r\n
+    \ {\r\n    \"id\": 9,\r\n    \"nom\": \"Reda Skalli\",\r\n    \"departement\":
+    \"Économie et Gestion\",\r\n    \"email\": \"reda.skalli@example.com\",\r\n    \"specialite\":
+    \"Management des systèmes d'information\",\r\n    \"bureau\": \"E-501\"\r\n  },\r\n
+    \ {\r\n    \"id\": 10,\r\n    \"nom\": \"Hind Ouazzani\",\r\n    \"departement\":
+    \"Langues et Communication\",\r\n    \"email\": \"hind.ouazzani@example.com\",\r\n
+    \   \"specialite\": \"Communication professionnelle\",\r\n    \"bureau\": \"F-601\"\r\n
+    \ },\r\n  {\r\n    \"id\": 11,\r\n    \"nom\": \"Karim Benali\",\r\n    \"departement\":
+    \"Mathématiques\",\r\n    \"email\": \"k.benali.maths@example.com\",\r\n    \"specialite\":
+    \"Algèbre et géométrie\",\r\n    \"bureau\": \"A-203\"\r\n  }\r\n]"
+kind: ConfigMap
+metadata:
+  name: enseignants-data
+  namespace: annuaire
